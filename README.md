@@ -4,6 +4,9 @@ SegmentedButtonGroup is like iOS Segmented Controls
 
 ###### This is the component, works on iOS, Android and UWP.
 
+<a href="#">
+<img border="0" alt="W3Schools" src="Resources/sample.png" width="400"   alt="SocialNetworkApp" /></a>
+
 **NuGet**
 
 |Name|Info|
