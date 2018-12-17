@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>tbertuzzi</Authors>
+    <Company>KBits</Company>
+    <Description>ios SegmentedButton for Xamarin.Forms</Description>
+    <Copyright>Copyright ©2018 KBits</Copyright>
+    <PackageLicenseUrl>http://opensource.org/licenses/MS-PL</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/TBertuzzi/Xamarin.Forms.SegmentedButton</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TBertuzzi/Xamarin.Forms.SegmentedButton</RepositoryUrl>
+    <PackageTags>xamarin.forms xamarin forms segmentedbutton layout control segmented button</PackageTags>
+    <PackageReleaseNotes>First Version</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
