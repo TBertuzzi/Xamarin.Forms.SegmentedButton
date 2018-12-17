@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>tbertuzzi</Authors>
     <Company>KBits</Company>
-    <Description>ios SegmentedButton for Xamarin.Forms</Description>
+    <Description>iOS SegmentedButton for Xamarin.Forms</Description>
     <Copyright>Copyright ©2018 KBits</Copyright>
     <PackageLicenseUrl>http://opensource.org/licenses/MS-PL</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/TBertuzzi/Xamarin.Forms.SegmentedButton</PackageProjectUrl>
