@@ -1,6 +1,6 @@
 # Xamarin.Forms.SegmentedButton
 
-SegmentedButtonGroup is like iOS Segmented Controls
+SegmentedButtonGroup is like iOS Segmented Controls for Xamarin.Forms
 
 ###### This is the component, works on iOS, Android and UWP.
 
