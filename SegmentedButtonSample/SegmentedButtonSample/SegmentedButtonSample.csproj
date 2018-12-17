@@ -11,5 +11,6 @@
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
+    <PackageReference Include="Xamarin.Forms.SegmentedButton" Version="1.0.0" />
   </ItemGroup>
 </Project>

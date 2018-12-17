@@ -3,9 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:local="clr-namespace:SegmentedButtonSample" 
              xmlns:sb="clr-namespace:Xamarin.Forms.SegmentedButton;assembly=Xamarin.Forms.SegmentedButton"
-             x:Class="SegmentedButtonSample.MainPage" Padding="0,20,0,0">
+             x:Class="SegmentedButtonSample.MainPage" Padding="0,60,0,0">
     <StackLayout>
-         <sb:SegmentedButtonGroup OnColor="#E06F23" OffColor="White" SelectedIndex="{Binding SelectedIndex, Mode=TwoWay}" CornerRadius="5" HeightRequest="50" Margin="8, 8, 8, 0">
+         <sb:SegmentedButtonGroup DefaultColor="#E06F23" SelectedColor="Black" SelectedIndex="{Binding SelectedIndex, Mode=TwoWay}" CornerRadius="5" HeightRequest="50" Margin="8, 8, 8, 0">
                 <sb:SegmentedButtonGroup.LabelStyle>
                     <Style TargetType="Label">
                         <Setter Property="FontSize" Value="12" />

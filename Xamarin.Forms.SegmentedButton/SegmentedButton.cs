@@ -11,20 +11,20 @@ namespace Xamarin.Forms.SegmentedButton
 
     public class SegmentedButtonGroup : Grid
     {
-        public static readonly BindableProperty OnColorProperty = BindableProperty.Create("OnColor", typeof(Color), typeof(SegmentedButtonGroup), Color.Blue);
+        public static readonly BindableProperty DefaultColorProperty = BindableProperty.Create("DefaultColor", typeof(Color), typeof(SegmentedButtonGroup), Color.Blue);
 
-        public Color OnColor
+        public Color DefaultColor
         {
-            get { return (Color)GetValue(OnColorProperty); }
-            set { SetValue(OnColorProperty, value); }
+            get { return (Color)GetValue(DefaultColorProperty); }
+            set { SetValue(DefaultColorProperty, value); }
         }
 
-        public static readonly BindableProperty OffColorProperty = BindableProperty.Create("OffColor", typeof(Color), typeof(SegmentedButtonGroup), Color.White);
+        public static readonly BindableProperty SelectedColorProperty = BindableProperty.Create("SelectedColor", typeof(Color), typeof(SegmentedButtonGroup), Color.White);
 
-        public Color OffColor
+        public Color SelectedColor
         {
-            get { return (Color)GetValue(OffColorProperty); }
-            set { SetValue(OffColorProperty, value); }
+            get { return (Color)GetValue(SelectedColorProperty); }
+            set { SetValue(SelectedColorProperty, value); }
         }
 
         public static readonly BindableProperty CommandProperty = BindableProperty.Create("Command", typeof(Command), typeof(SegmentedButtonGroup), default(Command));
@@ -117,20 +117,20 @@ namespace Xamarin.Forms.SegmentedButton
                     frame.Corners = RoundedCorners.None;
 
                 frame.CornerRadius = CornerRadius;
-                frame.OutlineColor = OnColor;
+                frame.OutlineColor = DefaultColor;
                 frame.Content = label;
                 frame.HorizontalOptions = LayoutOptions.FillAndExpand;
                 frame.VerticalOptions = LayoutOptions.FillAndExpand;
 
                 if (i == SelectedIndex)
                 {
-                    frame.InnerBackground = OnColor;
-                    label.TextColor = OffColor;
+                    frame.InnerBackground = DefaultColor;
+                    label.TextColor = SelectedColor;
                 }
                 else
                 {
-                    frame.InnerBackground = OffColor;
-                    label.TextColor = OnColor;
+                    frame.InnerBackground = SelectedColor;
+                    label.TextColor = DefaultColor;
                 }
 
                 var tapGesture = new TapGestureRecognizer();
@@ -169,13 +169,13 @@ namespace Xamarin.Forms.SegmentedButton
                 var label = frame.Content as Label;
                 if (i == SelectedIndex)
                 {
-                    frame.InnerBackground = OnColor;
-                    label.TextColor = OffColor;
+                    frame.InnerBackground = DefaultColor;
+                    label.TextColor = SelectedColor;
                 }
                 else
                 {
-                    frame.InnerBackground = OffColor;
-                    label.TextColor = OnColor;
+                    frame.InnerBackground = SelectedColor;
+                    label.TextColor = DefaultColor;
                 }
             }
         }
