@@ -18,5 +18,6 @@
                     <sb:SegmentedButton Title="Second"/>
                 </sb:SegmentedButtonGroup.SegmentedButtons>
             </sb:SegmentedButtonGroup>
+
     </StackLayout>
 </ContentPage>
