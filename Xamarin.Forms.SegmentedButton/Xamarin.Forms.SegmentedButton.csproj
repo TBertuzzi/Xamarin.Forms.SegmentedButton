@@ -13,7 +13,7 @@
     <PackageReleaseNotes>First Version</PackageReleaseNotes>
     <PackageIconUrl>https://github.com/TBertuzzi/Xamarin.Forms.SegmentedButton/blob/master/Resources/segmentedIcon.png?raw=true</PackageIconUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>

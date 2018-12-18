@@ -5,19 +5,19 @@
              xmlns:sb="clr-namespace:Xamarin.Forms.SegmentedButton;assembly=Xamarin.Forms.SegmentedButton"
              x:Class="SegmentedButtonSample.MainPage" Padding="0,60,0,0">
     <StackLayout>
-         <sb:SegmentedButtonGroup DefaultColor="#E06F23" SelectedColor="Black" SelectedIndex="{Binding SelectedIndex, Mode=TwoWay}" CornerRadius="5" HeightRequest="50" Margin="8, 8, 8, 0">
-                <sb:SegmentedButtonGroup.LabelStyle>
+         <sb:SegmentedButtonControl DefaultColor="#E06F23" SelectedColor="Black" SelectedIndex="{Binding SelectedIndex, Mode=TwoWay}" CornerRadius="5" HeightRequest="50" Margin="8, 8, 8, 0">
+                <sb:SegmentedButtonControl.LabelStyle>
                     <Style TargetType="Label">
                         <Setter Property="FontSize" Value="12" />
                         <Setter Property="FontAttributes" Value="Bold" />
                     </Style>
-                </sb:SegmentedButtonGroup.LabelStyle>
-                <sb:SegmentedButtonGroup.SegmentedButtons>
+                </sb:SegmentedButtonControl.LabelStyle>
+                <sb:SegmentedButtonControl.SegmentedButtons>
                     <sb:SegmentedButton Title="None" />
                     <sb:SegmentedButton Title="First"/>
                     <sb:SegmentedButton Title="Second"/>
-                </sb:SegmentedButtonGroup.SegmentedButtons>
-            </sb:SegmentedButtonGroup>
+                </sb:SegmentedButtonControl.SegmentedButtons>
+            </sb:SegmentedButtonControl>
 
     </StackLayout>
 </ContentPage>
