@@ -23,19 +23,19 @@ in the Xaml file we must declare our control xmlns:sb="clr-namespace:Xamarin.For
 
 ```csharp
 
-<sb:SegmentedButtonGroup DefaultColor="#E06F23" SelectedColor="Black" SelectedIndex="{Binding SelectedIndex, Mode=TwoWay}" CornerRadius="5" HeightRequest="50" Margin="8, 8, 8, 0">
-                <sb:SegmentedButtonGroup.LabelStyle>
+  <sb:SegmentedButtonControl DefaultColor="#E06F23" SelectedColor="Black" SelectedIndex="{Binding SelectedIndex, Mode=TwoWay}" CornerRadius="5" HeightRequest="50" Margin="8, 8, 8, 0">
+                <sb:SegmentedButtonControl.LabelStyle>
                     <Style TargetType="Label">
                         <Setter Property="FontSize" Value="12" />
                         <Setter Property="FontAttributes" Value="Bold" />
                     </Style>
-                </sb:SegmentedButtonGroup.LabelStyle>
-                <sb:SegmentedButtonGroup.SegmentedButtons>
+                </sb:SegmentedButtonControl.LabelStyle>
+                <sb:SegmentedButtonControl.SegmentedButtons>
                     <sb:SegmentedButton Title="None" />
                     <sb:SegmentedButton Title="First"/>
                     <sb:SegmentedButton Title="Second"/>
-                </sb:SegmentedButtonGroup.SegmentedButtons>
-            </sb:SegmentedButtonGroup>
+                </sb:SegmentedButtonControl.SegmentedButtons>
+            </sb:SegmentedButtonControl>
 ```
 
 The complete example can be downloaded here: https://github.com/TBertuzzi/Xamarin.Forms.SegmentedButton/tree/master/SegmentedButtonSample
