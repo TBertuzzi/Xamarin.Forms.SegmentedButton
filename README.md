@@ -11,7 +11,7 @@ SegmentedButtonGroup is like iOS Segmented Controls for Xamarin.Forms
 
 |Name|Info|
 | ------------------- | :------------------: |
-|SegmentedButton|[![NuGet](https://img.shields.io/badge/nuget-1.0.1-blue.svg)](https://https://www.nuget.org/packages/Xamarin.Forms.SegmentedButton/)|
+|SegmentedButton|[![NuGet](https://buildstats.info/nuget/Xamarin.Forms.SegmentedButton)](https://www.nuget.org/packages/Xamarin.Forms.SegmentedButton/)|
 
 **Platform Support**
 
